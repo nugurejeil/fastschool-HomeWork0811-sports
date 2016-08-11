@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@font-face{
+  font-family: "OpenSans-Bold";
+  src: url("../images/Fonts/open-sans/OpenSans-Regular.ttf");
+}
+
+@font-face{
+  font-family: "OpenSans-Bold";
+  src: url("../images/Fonts/open-sans/OpenSans-Bold.ttf");
+}
+
+body{
+  max-width: 750px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+/***** SECTION HEADER 영역 ******/
+
+h1{
+  padding-top: 54px;
+  padding-bottom: 54px;
+  text-align: center;
+  font-family: "OpenSans-Bold";
+  font-size: 1.75em; /* 28/16 */
+}
+
+#header a{
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 18.1333%;
+  height: 136px;
+}
+
+#header .go_back::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 16px;
+  height: 28px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url("../images/back_arrow.png");
+}
+
+/***** SECTION SOCIAL 영역 ******/
+
+.social h2, .theme h2{
+  font-size: 1.25em; /* 20/16 */
+  color: #9b9b9b;
+}
+
+
